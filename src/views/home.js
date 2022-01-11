@@ -16,6 +16,10 @@ const Home = () => {
       <Helmet>
         <title>OttoV2</title>
         <meta property="og:title" content="OttoV2" />
+        <meta
+          property="og:image"
+          content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/cbeeeb0d-0df3-416b-9adc-59dd7e3bb890/49572208-80a6-4ed1-8404-5c60b9d4872d?org_if_sml=1"
+        />
       </Helmet>
       <div data-role="Header" className={styles['HeaderContainer']}>
         <header className={styles['Header']}>
@@ -161,7 +165,7 @@ const Home = () => {
             <PrimaryButton button="Me apunto"></PrimaryButton>
           </div>
           <img
-            alt="image"
+            alt="map view"
             src="/playground_assets/phone%20mockuphomemap.svg"
             className={styles['image02']}
           />
@@ -208,12 +212,8 @@ const Home = () => {
             </span>
           </span>
         </div>
-        <img
-          alt="image"
-          src="/playground_assets/cover%20image.svg"
-          image_src="/playground_assets/iPhoneX-1200w.png"
-          className={styles['image03']}
-        />
+        <div className={styles['Image-Large']}></div>
+        <div className={styles['Image-Small']}></div>
       </div>
       <div className={styles['Community']}>
         <div className={styles['container08']}>
@@ -235,20 +235,20 @@ const Home = () => {
           </div>
           <div className={styles['Phone']}>
             <img
-              alt="image"
+              alt="list view"
               src="/playground_assets/iphone%20xcommunity1.svg"
-              className={styles['image04']}
+              className={styles['image03']}
             />
           </div>
         </div>
       </div>
-      <div className={styles['Feature1']}>
+      <div className={styles['User-Info']}>
         <div className={styles['container09']}>
           <img
-            alt="image"
+            alt="details view"
             src="/playground_assets/iphone%20x.svg"
             image_src="dab1286f-0104-48fa-bd7d-135e132129dd"
-            className={styles['image05']}
+            className={styles['image04']}
           />
         </div>
         <div className={styles['container10']}>
@@ -263,12 +263,144 @@ const Home = () => {
           </span>
         </div>
       </div>
+      <div className={styles['App-Feature']}>
+        <h3 className={` ${styles['text28']} ${projectStyles['headline3']} `}>
+          App Feature
+        </h3>
+        <div className={styles['container11']}>
+          <div className={styles['List']}>
+            <div className={styles['Line-1']}>
+              <img
+                alt="image"
+                src="/playground_assets/multimedia_%5B607%5D.svg"
+                className={styles['image05']}
+              />
+              <div className={styles['Container12']}>
+                <div className={styles['container13']}>
+                  <img
+                    alt="image"
+                    src="/playground_assets/multimedia_%5B607%5D.svg"
+                    className={styles['image06']}
+                  />
+                  <h3
+                    className={` ${styles['text29']} ${projectStyles['headline5']} `}
+                  >
+                    Agradecimientos
+                  </h3>
+                </div>
+                <span
+                  className={` ${styles['text30']} ${projectStyles['lead1']} `}
+                >
+                  <span className={styles['text31']}>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit
+                    morbi a, mi egestas eu amet mauris adipiscing.
+                  </span>
+                </span>
+              </div>
+            </div>
+            <div className={styles['Line-2']}>
+              <img
+                alt="image"
+                src="/playground_assets/group%2066.svg"
+                className={styles['image07']}
+              />
+              <div className={styles['Container14']}>
+                <div className={styles['container15']}>
+                  <img
+                    alt="image"
+                    src="/playground_assets/group%2066.svg"
+                    className={styles['image08']}
+                  />
+                  <h3
+                    className={` ${styles['text32']} ${projectStyles['headline5']} `}
+                  >
+                    Amigos
+                  </h3>
+                </div>
+                <span
+                  className={` ${styles['text33']} ${projectStyles['lead1']} `}
+                >
+                  <span className={styles['text34']}>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit
+                    morbi a, mi egestas eu amet mauris adipiscing.
+                  </span>
+                </span>
+              </div>
+            </div>
+            <div className={styles['Line-3']}>
+              <img
+                alt="image"
+                src="/playground_assets/frame%2058.svg"
+                className={styles['image09']}
+              />
+              <div className={styles['Container16']}>
+                <div className={styles['container17']}>
+                  <img
+                    alt="image"
+                    src="/playground_assets/frame%2058.svg"
+                    className={styles['image10']}
+                  />
+                  <h3
+                    className={` ${styles['text35']} ${projectStyles['headline5']} `}
+                  >
+                    Salidas recientes
+                  </h3>
+                </div>
+                <span
+                  className={` ${styles['text36']} ${projectStyles['lead1']} `}
+                >
+                  <span className={styles['text37']}>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit
+                    morbi a, mi egestas eu amet mauris adipiscing.
+                  </span>
+                </span>
+              </div>
+            </div>
+            <div className={styles['Line-4']}>
+              <img
+                alt="image"
+                src="/playground_assets/stellafat%201.svg"
+                className={styles['image11']}
+              />
+              <div className={styles['Container18']}>
+                <div className={styles['container19']}>
+                  <img
+                    alt="image"
+                    src="/playground_assets/stellafat%201.svg"
+                    className={styles['image12']}
+                  />
+                  <h3
+                    className={` ${styles['text38']} ${projectStyles['headline5']} `}
+                  >
+                    ReseÃ±as
+                  </h3>
+                </div>
+                <span
+                  className={` ${styles['text39']} ${projectStyles['lead1']} `}
+                >
+                  <span className={styles['text40']}>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit
+                    morbi a, mi egestas eu amet mauris adipiscing.
+                  </span>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div className={styles['Phone1']}>
+            <img
+              alt="list view"
+              src="/playground_assets/iphone%20xbadges.svg"
+              className={styles['image13']}
+            />
+          </div>
+        </div>
+      </div>
       <div className={styles['Features']}>
-        <h2 className={` ${projectStyles['headline2']} ${styles['text28']} `}>
+        <h2 className={` ${projectStyles['headline2']} ${styles['text41']} `}>
           Tailor-made features
         </h2>
-        <span className={styles['text29']}>
-          <span className={styles['text30']}>
+        <span className={styles['text42']}>
+          <span className={styles['text43']}>
             Lorem ipsum is common placeholder text used to demonstrate the
             graphic elements of a document or visual presentation.
           </span>
@@ -298,25 +430,25 @@ const Home = () => {
         </div>
       </div>
       <div className={styles['Testimonials']}>
-        <div className={styles['container11']}>
-          <div className={styles['container12']}>
+        <div className={styles['container20']}>
+          <div className={styles['container21']}>
             <img
               alt="image"
               src="/playground_assets/quote-mark.svg"
-              className={styles['image06']}
+              className={styles['image14']}
             />
             <h1
-              className={` ${styles['text31']} ${projectStyles['headline2']} `}
+              className={` ${styles['text44']} ${projectStyles['headline2']} `}
             >
               Real Stories from Real Customers
             </h1>
             <span>Get inspired by these stories.</span>
-            <div className={styles['container13']}>
+            <div className={styles['container22']}>
               <TestimonialsCard image_src="/playground_assets/logo-4.svg"></TestimonialsCard>
             </div>
           </div>
-          <div className={styles['container14']}>
-            <div className={styles['container15']}>
+          <div className={styles['container23']}>
+            <div className={styles['container24']}>
               <TestimonialsCard
                 src="/playground_assets/logo-1.svg"
                 text="I used Landify and created a landing page for my startup within a week. The Landify UI Kit is simple and highly intuitive, so anyone can use it."
@@ -325,7 +457,7 @@ const Home = () => {
                 image_src="/playground_assets/logo-1.svg"
               ></TestimonialsCard>
             </div>
-            <div className={styles['container16']}>
+            <div className={styles['container25']}>
               <TestimonialsCard
                 text="Landify saved our time in designing my company page."
                 text1="Kristin Watson"
@@ -337,9 +469,9 @@ const Home = () => {
         </div>
       </div>
       <div className={styles['Achievements']}>
-        <div className={styles['container17']}>
-          <h2 className={styles['text33']}>
-            <span className={styles['text34']}>
+        <div className={styles['container26']}>
+          <h2 className={styles['text46']}>
+            <span className={styles['text47']}>
               Our 18 years of
               <span
                 dangerouslySetInnerHTML={{
@@ -350,14 +482,14 @@ const Home = () => {
             <br></br>
             <span>achievements</span>
           </h2>
-          <span className={styles['text37']}>
-            <span className={styles['text38']}>
+          <span className={styles['text50']}>
+            <span className={styles['text51']}>
               With our super powers we have reached this
             </span>
           </span>
         </div>
-        <div className={styles['container18']}>
-          <div className={styles['container19']}>
+        <div className={styles['container27']}>
+          <div className={styles['container28']}>
             <StatsCard
               number="10,000+"
               image_src="/playground_assets/01.svg"
@@ -369,7 +501,7 @@ const Home = () => {
               description="Users"
             ></StatsCard>
           </div>
-          <div className={styles['container20']}>
+          <div className={styles['container29']}>
             <StatsCard number="500+" description="Clients"></StatsCard>
             <StatsCard
               number="140"
@@ -380,73 +512,73 @@ const Home = () => {
         </div>
       </div>
       <div className={styles['CTA']}>
-        <div className={styles['container21']}>
-          <div className={styles['container22']}>
+        <div className={styles['container30']}>
+          <div className={styles['container31']}>
             <h2
-              className={` ${projectStyles['headline2']} ${styles['text39']} `}
+              className={` ${projectStyles['headline2']} ${styles['text52']} `}
             >
-              <span className={styles['text40']}>
+              <span className={styles['text53']}>
                 Manage your projects from your mobile
               </span>
             </h2>
-            <span className={` ${styles['text41']} ${projectStyles['lead1']} `}>
-              <span className={styles['text42']}>
+            <span className={` ${styles['text54']} ${projectStyles['lead1']} `}>
+              <span className={styles['text55']}>
                 Download the app to manage your projects, keep track of the
                 progress and complete tasks without procastinating. Stay on
                 track and complete on time!
               </span>
             </span>
             <span
-              className={` ${styles['text43']} ${projectStyles['subtitle2']} `}
+              className={` ${styles['text56']} ${projectStyles['subtitle2']} `}
             >
-              <span className={styles['text44']}>Get the App</span>
+              <span className={styles['text57']}>Get the App</span>
             </span>
             <StoreBanner></StoreBanner>
           </div>
-          <div className={styles['container23']}>
+          <div className={styles['container32']}>
             <img
               alt="image"
               src="/playground_assets/iPhoneX-1200w.png"
               image_src="/playground_assets/iPhoneX-1200w.png"
-              className={styles['image07']}
+              className={styles['image15']}
             />
             <img
               alt="image"
               src="/playground_assets/iPhoneX-1200w.png"
               image_src="/playground_assets/iPhoneX-1200w.png"
-              className={styles['image08']}
+              className={styles['image16']}
             />
           </div>
         </div>
       </div>
       <div className={styles['Footer']}>
-        <footer className={styles['container24']}>
+        <footer className={styles['container33']}>
           <img
             alt="image"
             src="/playground_assets/logotype-light.svg"
-            className={styles['image09']}
+            className={styles['image17']}
           />
-          <div className={styles['container25']}>
-            <span className={styles['text45']}>About</span>
-            <span className={styles['text46']}>Features</span>
-            <span className={styles['text47']}>Pricing</span>
-            <span className={styles['text48']}>Careers</span>
-            <span className={styles['text49']}>Help</span>
-            <span className={styles['text50']}>Privacy Policy</span>
+          <div className={styles['container34']}>
+            <span className={styles['text58']}>About</span>
+            <span className={styles['text59']}>Features</span>
+            <span className={styles['text60']}>Pricing</span>
+            <span className={styles['text61']}>Careers</span>
+            <span className={styles['text62']}>Help</span>
+            <span className={styles['text63']}>Privacy Policy</span>
           </div>
           <div className={styles['Divider']}></div>
-          <div className={styles['container26']}>
-            <span className={` ${styles['text51']} ${projectStyles['body2']} `}>
+          <div className={styles['container35']}>
+            <span className={` ${styles['text64']} ${projectStyles['body2']} `}>
               Â© 2020 Landify UI Kit. All rights reserved
             </span>
-            <div className={styles['container27']}>
+            <div className={styles['container36']}>
               <a
                 href="https://instagram.com"
                 target="_blank"
                 rel="noreferrer noopener"
                 className={styles['link4']}
               >
-                <div className={styles['container28']}>
+                <div className={styles['container37']}>
                   <svg
                     viewBox="0 0 877.7142857142857 1024"
                     className={styles['icon15']}
@@ -461,7 +593,7 @@ const Home = () => {
                 rel="noreferrer noopener"
                 className={styles['link5']}
               >
-                <div className={styles['container29']}>
+                <div className={styles['container38']}>
                   <svg
                     viewBox="0 0 877.7142857142857 1024"
                     className={styles['icon17']}
@@ -476,7 +608,7 @@ const Home = () => {
                 rel="noreferrer noopener"
                 className={styles['link6']}
               >
-                <div className={styles['container30']}>
+                <div className={styles['container39']}>
                   <svg
                     viewBox="0 0 950.8571428571428 1024"
                     className={styles['icon19']}
@@ -491,7 +623,7 @@ const Home = () => {
                 rel="noreferrer noopener"
                 className={styles['link7']}
               >
-                <div className={styles['container31']}>
+                <div className={styles['container40']}>
                   <svg viewBox="0 0 1024 1024" className={styles['icon21']}>
                     <path d="M406.286 644.571l276.571-142.857-276.571-144.571v287.429zM512 152c215.429 0 358.286 10.286 358.286 10.286 20 2.286 64 2.286 102.857 43.429 0 0 31.429 30.857 40.571 101.714 10.857 82.857 10.286 165.714 10.286 165.714v77.714s0.571 82.857-10.286 165.714c-9.143 70.286-40.571 101.714-40.571 101.714-38.857 40.571-82.857 40.571-102.857 42.857 0 0-142.857 10.857-358.286 10.857v0c-266.286-2.286-348-10.286-348-10.286-22.857-4-74.286-2.857-113.143-43.429 0 0-31.429-31.429-40.571-101.714-10.857-82.857-10.286-165.714-10.286-165.714v-77.714s-0.571-82.857 10.286-165.714c9.143-70.857 40.571-101.714 40.571-101.714 38.857-41.143 82.857-41.143 102.857-43.429 0 0 142.857-10.286 358.286-10.286v0z"></path>
                   </svg>
